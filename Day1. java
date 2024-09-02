@@ -1,0 +1,26 @@
+
+package hari1.javaa;
+
+public class Hari1Javaa {
+
+    public static void main(String[] args) {
+        System.out.println("BIODATA");
+        String nama = "NURAENI"; 
+        System.out.println("NAMA \t\t:"+ nama);
+        String namapanggilan = "NUR"; 
+        System.out.println("NAMA PANGGILAN \t:"+ namapanggilan);
+        String NIM = "D0223036";
+        System.out.println("NIM \t\t:"+ NIM);
+        String prodi = "INFORMATIKA";
+        System.out.println("PRODI \t\t:" + prodi);
+        char KELAS = 'D';
+        System.out.println("KELAS \t\t:"+ KELAS);
+        int umur = 18;
+        System.out.println("UMUR \t\t:" + umur + " TAHUN");
+        String namasekolah = "SMAN 1 kalukku";
+        System.out.println("ASAL SEKOLAH \t:"+ namasekolah);
+        String namadaerah = "MAMUJU";
+        System.out.println("ASAL DAERAH  \t:"+ namadaerah);
+                }
+    
+}
