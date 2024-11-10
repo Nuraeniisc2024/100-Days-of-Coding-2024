@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class soal3 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int angka;
+        do {
+        System.out.println("masukkan angka : ");
+            angka = input.nextInt();
+            if (angka % 2 == 0 && angka % 3 == 0) {
+                System.out.println("angka adalah kelipatan 2 dan kelipatan 3.masukkan angka lagi");
+            } else if (angka % 2 == 0) {
+                System.out.println("angka adalah kelipatan 2 ");
+            } else if (angka % 3 == 0) {
+                System.out.println("angka adalah kelipatan 3");
+            }
+
+        } while (angka % 2 == 0 || angka % 3 == 0);
+        System.out.println("program selesai angka yang anda masukkan bukan kelipatan 2 dan 3");
+    }
+}
