@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class soal1 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+     System.out.print("masukkan angka: ");
+     int angka = input.nextInt();
+     int a = 1;
+     System.out.print(angka+"! = ");
+     for (int i = angka; i > 0; i--) {
+        a *= i;
+        System.out.print(i);
+        System.out.print(" x ");
+     }
+     System.out.println("\b"+"\b= "+a);
+    }
+}
