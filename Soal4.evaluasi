@@ -1,0 +1,12 @@
+public class soal4 {
+    public static int hitungPerkalian(int a, int b) {
+        return a * b;
+    }
+
+    public static void main(String[] args) {
+        int angka1 = 2;
+        int angka2 = 5;
+        int hasil = hitungPerkalian(angka1, angka2);
+        System.out.println("Hasil perkalian = " + hasil);
+    }
+}
