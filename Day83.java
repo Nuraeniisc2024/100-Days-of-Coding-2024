@@ -1,14 +1,17 @@
 package isc;
-import java.lang.Math;
+
+import java.util.Arrays;
+
 public class Day83 {
     public static void main(String[] args) {
-    double number = 5.75;
-        System.out.println("Angka asli: " + number);
-          // Menggunakan ceil
-        System.out.println("Hasil ceil: " + Math.ceil(number)); // Membulatkan ke atas
-        // Menggunakan floor
-        System.out.println("Hasil floor: " + Math.floor(number)); // Membulatkan ke bawah
-        // Menggunakan round
-        System.out.println("Hasil round: " + Math.round(number)); // Membulatkan ke nilai terdekat
-}   
+        
+        String nama[] = new String[4];
+        
+        nama[0] = "nur";
+        nama[1] = "april";
+        nama[2] = "suci";
+        nama[3] = "wnda";
+        
+        System.out.println(Arrays.toString(nama));
+    }
 }
